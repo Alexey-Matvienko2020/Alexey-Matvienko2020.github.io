@@ -1,0 +1,38 @@
+baseURL = '/'
+languageCode = 'ru-ru'
+title = 'Алексей Матвиенко'
+theme = 'hugo-resume'
+
+relativeURLs = true
+uglyurls = true
+
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[params]
+address = "Москва"
+email = "a_matvienko@mail.ru"
+firstName = "Алексей"
+lastName = "Матвиенко"
+profileImage = "img/photo.jpg"
+showEducation = true
+showExperience = true
+showOpenSource = false
+showProjects = false
+showPublications = false
+showQr = false
+showSkills = true
+
+[[params.handles]]
+link = "tel:+79166172035"
+name = "Phone"
+icon = "phone"
+
+[[params.handles]]
+link = "skype:alex_matvienko99?add"
+name = "Skype"
+
+[taxonomies]
+tag = "tags"
